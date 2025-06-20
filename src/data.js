@@ -247,6 +247,7 @@ export const experience = [
       {
         skill: "Git & Github",
         level: "Intermediate",
+        // level: "Intermediate",
       },
     ],
   },
