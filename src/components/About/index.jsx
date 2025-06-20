@@ -45,6 +45,7 @@ const About = () => {
               as well as database design and management. Strong problem-solving and analytical skills,
               and a track record of delivering high-quality code on time and on budget.
             </p>
+            <p className=' text-red-600'> Hiii</p>
           </div>
         </div>
       </section>

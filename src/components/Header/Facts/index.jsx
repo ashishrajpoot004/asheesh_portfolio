@@ -13,8 +13,8 @@ const Facts = () => {
 
     useEffect(()=>{
         const timeoutId = setTimeout(()=>{
-            setExperience(800)
-            setProjects(10)
+            setExperience(600)
+            setProjects(4)
         },3000)
         return() => {
             clearTimeout(timeoutId)
@@ -56,16 +56,6 @@ const Facts = () => {
             </div>
             <p className="name">Completed Projects</p>
         </div>
-
-         {/* <div className="fact__item">
-            <div className="count__container">
-                <Odometer
-                value={experience}
-                />
-                <span className="indicator">s</span>
-            </div>
-            <p className="name">Satisfied Clients</p>
-        </div>  */}
     </div>
   )
 }

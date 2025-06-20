@@ -1,38 +1,27 @@
 import { DiReact } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { SiExpress, SiFigma, SiMongodb, SiUpwork } from "react-icons/si";
-import { SiFiverr } from "react-icons/si";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
-import { CgFigma } from "react-icons/cg";
-import { TbBrandReactNative } from "react-icons/tb";
-import { SiAdobexd } from "react-icons/si";
-import { BiLinkExternal } from "react-icons/bi";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { PMU, codeview, moodexa, zerodh, zerodha } from "../src/assets/img";
+import { SiTailwindcss, SiCloudinary } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 export const menu = [
   { name: "About" },
-  { name: "Services" },
   { name: "Skill" },
   { name: "Projects" },
-  { name: "Testimonial" },
   { name: "Contact" },
-]
-
-
+];
 
 export const projects = [
   {
     id: 1,
-    title: 'CodeView Code Editor',
-    image: 'https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png',
-    category: "FullStack",
+    title: "CodeView Code-Editor",
+    image: codeview,
+    category: "All",
     data: {
-      description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                       learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                       and intuitive navigation, our design empowers educators and students alike. Experience 
-                       innovation at its finest as we pave the way for a smarter, more efficient educational 
-                       journey.`,
+      description: `CodeView is a clean and modern developer portfolio built with React and Tailwind CSS. It serves as a personal showcase to highlight coding projects, GitHub links, and live demos in a visually organized way.`,
       demoLink: "https://code-view-theta.vercel.app/",
-      shareLink: "https://api.whatsapp.com/send?text=https://www.geeksforgeeks.org/user/riteshmauryabtec/",
     },
     stack: [
       {
@@ -41,24 +30,20 @@ export const projects = [
         iconColor: "skyblue",
       },
       {
-        name: "NodeJs",
-        icon: <FaNodeJs />,
+        name: "Tailwind CSS",
+        icon: <RiTailwindCssFill />,
         iconColor: "green",
       },
-      {
-        name: "ExpressJs",
-        icon: <SiExpress />,
-      },
-    ]
+    ],
   },
   {
     id: 2,
-    title: 'Zerodha share market - global',
-    image: '',
+    title: "Zerodha share market - global",
+    image: zerodha,
     category: "FullStack",
     data: {
       description: `Created a responsive stock trading web application that streamlined user experience by implementing live market data and portfolio management tools, achieving positive feedback from 95% of early users during beta testing with the help of this technology HTML, CSS, Bootstrap, React.js, Node.js, MongoDB`,
-      demoLink: "https://google.com/",
+      demoLink: "https://github.com/ashishrajpoot004",
     },
     stack: [
       {
@@ -80,16 +65,16 @@ export const projects = [
         icon: <SiMongodb />,
         iconColor: "limegreen",
       },
-    ]
+    ],
   },
   {
     id: 3,
-    title: 'Tasty food-online food ordering app ',
-    image: '',
+    title: "Tasty food-online food ordering app ",
+    image: moodexa,
     category: "FullStack",
     data: {
       description: `Developed a full-stack food ordering web application User Features. Responsive UI, menu browsing, cart management and seamless checkout Integrated Stripe Payment Gateway for secure online transactions . Optimized backend for scalability and performance.`,
-      demoLink: "https://google.com/",
+      demoLink: "https://github.com/ashishrajpoot004",
     },
     stack: [
       {
@@ -123,36 +108,68 @@ export const projects = [
         name: "MongoDBT",
         icon: <SiMongodb />,
       },
-    ]
+    ],
   },
- 
- 
-  
-]
-
-
+  {
+    id: 4,
+    title: "Public Media Uploader",
+    image: PMU,
+    category: "FullStack",
+    data: {
+      description: `Developed a full-stack media uploader platform with React, Node.js, and Cloudinary integration. Users can upload, view, and download photos and videos seamlessly. Implemented drag & drop, progress bar, gallery view, and cloud-based storage. Fast, accessible, and open to public use.`,
+      demoLink: "https://public-media-uploader.vercel.app/",
+    },
+    stack: [
+      {
+        name: "ReactJs",
+        icon: <DiReact />,
+        iconColor: "skyblue",
+      },
+      {
+        name: "TailwindCSS",
+        icon: <SiTailwindcss />,
+        iconColor: "cyan",
+      },
+      {
+        name: "NodeJs",
+        icon: <FaNodeJs />,
+        iconColor: "green",
+      },
+      {
+        name: "ExpressJs",
+        icon: <SiExpress />,
+      },
+      {
+        name: "Cloudinary",
+        icon: <SiCloudinary />,
+        iconColor: "purple",
+      },
+      {
+        name: "MongoDB",
+        icon: <SiMongodb />,
+        iconColor: "limegreen",
+      },
+    ],
+  },
+];
 
 export const experience = [
   {
-    title: "UI/UX",
+    title: "Languages",
     data: [
       {
-        skill: "Figma",
-        level: "Experienced",
-      },
-      // {
-      //   skill: "Sketch",
-      //   level: "Intermediate",
-      // },
-      // {
-      //   skill: "XD",
-      //   level: "Intermediate",
-      // },
-      {
-        skill: "Canva",
+        skill: "Java",
         level: "Intermediate",
       },
-    ]
+      {
+        skill: "C",
+        level: "Intermediate",
+      },
+      {
+        skill: "SQL",
+        level: "Intermediate",
+      },
+    ],
   },
   {
     title: "FullStack Development",
@@ -189,7 +206,7 @@ export const experience = [
         skill: "Express JS",
         level: "Experienced",
       },
-    ]
+    ],
   },
   {
     title: "Data Structure & Algorithm",
@@ -210,8 +227,7 @@ export const experience = [
         skill: "Stack & Queue",
         level: "Experienced",
       },
-
-    ]
+    ],
   },
   {
     title: "Deployement & Extra Skills",
@@ -232,17 +248,11 @@ export const experience = [
         skill: "Git & Github",
         level: "Intermediate",
       },
-    ]
+    ],
   },
-]
-
+];
 
 export const socialHandles = [
-  {
-    name: "Upwork",
-    icon: <SiUpwork />,
-    link: "",
-  },
   {
     name: "Github",
     icon: <AiFillGithub />,

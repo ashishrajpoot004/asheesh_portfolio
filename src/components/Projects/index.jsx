@@ -8,9 +8,7 @@ import Card from './Card'
 
 const tabs = [
   { name: "All" },
-  { name: "UI/UX" },
   { name: "FullStack" },
-  { name: "Apps" },
 ]
 
 
