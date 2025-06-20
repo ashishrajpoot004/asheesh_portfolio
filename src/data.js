@@ -237,7 +237,7 @@ export const experience = [
         level: "Intermediate",
       },
       {
-        skill: "FireBase",
+        skill: "AWS",
         level: "Intermediate",
       },
       {
