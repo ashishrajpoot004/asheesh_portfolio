@@ -40,12 +40,11 @@ const About = () => {
             <h2 className="primary__title">About Me</h2>
             <h1 className="title">I am <span className="color__primary">Asheesh Kumar</span></h1>
             <p className="text__muted description">
-              Experienced Full Stack Developer with a passion for creating dynamic, intuitive, and
-              responsive applications. Proficient in multiple programming languages and frameworks,
-              as well as database design and management. Strong problem-solving and analytical skills,
-              and a track record of delivering high-quality code on time and on budget.
-            </p>
-            <p className=' text-red-600'> Hiii</p>
+              Motivated and detail-oriented aspiring Test Engineer with a strong understanding of the Software Development Life Cycle (SDLC) and
+Software Testing Life Cycle (STLC). Skilled in manual testing, basic automation testing, test case design, defect tracking, and QA
+tools such as Jira. Eager to contribute to delivering high-quality, reliable software by applying industry-standard testing methodologies.
+Seeking an entry-level Test Engineer position to leverage technical skills, analytical thinking, and a passion for continuous learning..            </p>
+          
           </div>
         </div>
       </section>
