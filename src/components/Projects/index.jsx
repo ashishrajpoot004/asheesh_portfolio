@@ -7,8 +7,7 @@ import Card from './Card'
 
 
 const tabs = [
-  { name: "All" },
-  { name: "FullStack" },
+  { name: "All" }
 ]
 
 
