@@ -24,7 +24,7 @@
     border: 2px solid var(--color-primary);
     transform: rotate(-7deg);
     transition: var(--transition);
-    background-color: white;
+    background-color: black;
 }
 #about .photo__container:hover {
     transform: rotate(0);
