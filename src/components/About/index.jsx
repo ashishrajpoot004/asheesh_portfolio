@@ -8,7 +8,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const About = () => {
 
-
   const container = useRef(null)
     gsap.registerPlugin(ScrollTrigger)
     useEffect(() => {
