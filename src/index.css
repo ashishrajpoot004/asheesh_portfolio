@@ -103,6 +103,7 @@ img {
   color: var(--color-white);
   background-size: 200% auto;
   transition: var(--transition);
+  margin-right:30px;
 }
 
 .btn__primary:hover {
